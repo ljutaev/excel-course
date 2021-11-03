@@ -1,7 +1,7 @@
 console.log('module.js')
 
 async function start() {
-	await Promise.resolve()
+	return await Promise.resolve('async working !s')
 }
 
-start()
+start().then(console.log)
