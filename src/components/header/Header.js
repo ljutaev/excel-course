@@ -2,6 +2,7 @@ import {ExcelComponent} from '@core/ExcelComponent'
 
 export class Header extends ExcelComponent {
   static className = 'excel__header'
+<<<<<<< HEAD
 
   constructor($root, options) {
     super($root, {
@@ -13,6 +14,10 @@ export class Header extends ExcelComponent {
   toHTML() {
     return `
       <input type="text" class="input" value="Новая таблица" />
+=======
+  toHTML() {
+    return `<input type="text" class="input" value="Новая таблица" />
+>>>>>>> 93184db2622862c58658ada7f60e51e6f613124a
 
       <div>
 
@@ -24,7 +29,11 @@ export class Header extends ExcelComponent {
           <i class="material-icons">exit_to_app</i>
         </div>
 
+<<<<<<< HEAD
       </div>
     `
+=======
+      </div>`
+>>>>>>> 93184db2622862c58658ada7f60e51e6f613124a
   }
 }
